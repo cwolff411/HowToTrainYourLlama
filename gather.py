@@ -11,12 +11,12 @@ from telethon.tl.types import (
 import base64
 
 # Setting configuration values
-api_id = "11024483"
-api_hash = "3118eec471c82b2ecda43e8862bc8504"
+api_id = ""
+api_hash = ""
 api_hash = str(api_hash)
 
-phone = "+12722683902"
-username = "loki"
+phone = ""
+username = ""
 
 max_messages_per_channel = 10000 # Number of messages per channel
 max_total_messages = 50000 # Total number of overall messages obtained
@@ -28,13 +28,7 @@ filename = "telegram_messages.txt" # Filename that holds all of the saved messag
 # List of telegram channels to get messages from.
 # This needs to be the share url for 
 telegram_channels = [
-    "https://t.me/starfraudchat",
-    "https://t.me/Pwn3rzs",
-    "https://t.me/deathmatixchat",
-    "https://t.me/baphchat",
-    "https://t.me/pwn3rzs_chat",
-    "https://t.me/+T2UE1WlpXC5mNWRk", #BreachedData1
-    "https://t.me/+jv06WoMIZTY1NzM0" #BreachedDataChat
+    "",
 ]
 
 
